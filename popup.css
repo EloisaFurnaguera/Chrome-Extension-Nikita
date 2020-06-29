@@ -1,0 +1,83 @@
+   
+
+      html,
+      body {
+        font-family: "Open Sans", Tahoma, Geneva, Verdana, sans-serif; 
+        font-size: 14px;
+        margin: 0;
+        min-height: 180px;
+        padding: 0;
+        width: 384px;
+        color: #FF5CB6;
+   
+      }
+
+      h1 {
+        font-family:  Tahoma;
+        font-size: 30px;
+        font-weight: 200;
+        margin: 0;
+        color: #afa0a8;
+      }
+
+      /* a:link,
+      a:visited {
+        color: #000000;
+        outline: 0;
+        text-decoration: none;
+      } */
+
+      /* img {
+        width: 3000px;
+      } */
+
+      .top-header {
+        align-items: center;
+        border-bottom: 0.5px solid #dadada;
+        width: 90%;
+      }
+
+      .text-content {
+        padding: 0 22px;
+      }
+
+      .icon-content {
+        border-top: 0.5px solid #dadada;
+        height: 10px;
+        width: 90%;
+      }
+
+      .nikita_logo {
+        padding: 10px;
+      }
+
+      .logo-icon {
+        vertical-align: text-bottom;
+        margin-right: 10px;
+      } 
+
+      .version {
+        color: rgb(190, 180, 180);
+        font-size: 12px;
+      }
+
+      .flex-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 22px;
+      }
+
+      .icon {
+        opacity: 1;
+        transition: opacity 0.s ease-in-out;
+        width: 120px;
+      }
+
+      .icon:hover {
+        opacity: 0.4;
+      }
+
+      .icon .fa {
+        font-size: 35px;
+        color: #FF338B;
+      }
